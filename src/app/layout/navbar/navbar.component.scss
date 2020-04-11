@@ -1,0 +1,21 @@
+mat-toolbar {
+    height: 100%;
+    padding-left: 0;
+    overflow: hidden;
+
+    mat-toolbar-row {
+        padding: 0;
+
+        mat-icon {
+            padding: 0 21px;
+        }
+
+        a {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

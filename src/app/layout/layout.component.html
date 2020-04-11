@@ -1,0 +1,16 @@
+<mat-sidenav-container hasBackdrop="false">
+
+    <mat-sidenav mode="side"
+                 opened
+                 [class.collapsed]="!isSideNavOpen"
+                 (mouseenter)="isSideNavOpen = true"
+                 (mouseleave)="isSideNavOpen = false">
+
+        <app-navbar></app-navbar>        
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>
